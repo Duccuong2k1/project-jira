@@ -29,7 +29,7 @@ function* createProjectSaga(action) {
     try {
         const { data, status } = yield call(() => cyberBugService.createProject(action.newProject));
 
-        console.log("data moi tao", data);
+        // console.log("data moi tao", data);
 
     } catch (err) {
         console.log('thong tin chi tiết lỗi',err);
