@@ -32,7 +32,8 @@ function* createProjectSaga(action) {
         console.log("data moi tao", data);
 
     } catch (err) {
-        console.log(err);
+        console.log('thong tin chi tiết lỗi',err);
+
     }
 
 };
